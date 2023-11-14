@@ -1,1 +1,37 @@
-<h1>Test</h1>
+
+<head>
+	<script src="https://mellorange.github.io/DVC-Preview-Website/js/common.js"></script>
+	<script src="https://mellorange.github.io/DVC-Preview-Website/js/spineObject.js"></script>
+	<script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
+</head>
+
+<body>
+	<canvas id="canvas-dragon" class="spineCanvas dragonCanvas" width="899" height="782"></canvas>
+	<script type="text/javascript">
+		let loadSpineDragon = function() { 
+			Common.setDragonSpineOrImage("https://mellorange.github.io/DVC-Preview-Website/res/underground_01_f_adult_g/underground_01_f_adult_g")
+		}
+		window.addEventListener("load", loadSpineDragon);
+	</script>
+
+	<canvas id="canvas-aura-back" class="spineCanvas auraBackCanvas"></canvas>
+	<script type="text/javascript">
+		let loadSpineAuraBack = function() { 
+			new spine.SpineCanvas(document.getElementById("canvas-aura-back"), {
+				app: new SpineObject("https://res.dvc.land/dvc-web/res/spine/aura/aura_back/aura_back", "aura_a_red")
+			})
+		}
+		window.addEventListener("load", loadSpineAuraBack);
+	</script>
+
+	<canvas id="canvas-aura-front" class="spineCanvas auraFrontCanvas"></canvas>
+	<script type="text/javascript"> 
+		let loadSpineAuraFront = function() { 
+			new spine.SpineCanvas(document.getElementById("canvas-aura-front"), {
+				app: new SpineObject("https://res.dvc.land/dvc-web/res/spine/aura/aura_front/aura_front", "a")
+			})
+		}
+		window.addEventListener("load", loadSpineAuraFront);
+	</script>
+
+</body>

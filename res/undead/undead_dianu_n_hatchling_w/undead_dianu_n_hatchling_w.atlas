@@ -1,0 +1,10 @@
+undead_dianu_n_hatchling_w.png
+size:66,39
+filter:Linear,Linear
+pma:true
+body_2
+bounds:2,2,35,31
+rotate:90
+head_2
+bounds:35,2,35,29
+rotate:90
