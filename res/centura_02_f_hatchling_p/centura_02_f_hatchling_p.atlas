@@ -35,7 +35,7 @@ idle_07
 bounds:93,181,92,86
 offsets:1,3,94,91
 idle_08
-bounds:182,89,90,86
+bounds:182,88,91,86
 offsets:2,2,94,91
 rotate:90
 idle_09
@@ -68,11 +68,11 @@ move_4
 bounds:91,3,88,81
 offsets:2,6,93,89
 move_5
-bounds:181,4,88,80
-offsets:2,6,93,89
+bounds:181,3,88,81
+offsets:2,5,93,89
 move_6
-bounds:445,10,85,80
-offsets:2,4,93,89
+bounds:445,9,86,80
+offsets:1,4,93,89
 rotate:90
 move_7
 bounds:458,185,84,82

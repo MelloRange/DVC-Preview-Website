@@ -1,6 +1,7 @@
 hallow_01_m_hatchling_g.png
 size:1333,189
 filter:Linear,Linear
+pma:true
 body_2
 bounds:1203,2,42,32
 rotate:90

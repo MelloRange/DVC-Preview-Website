@@ -88,7 +88,7 @@ leg_f_r3_1
 bounds:1072,19,12,6
 rotate:90
 move_0
-bounds:231,3,56,43
+bounds:186,3,56,43
 offsets:2,1,59,45
 rotate:90
 move_1
@@ -100,8 +100,8 @@ bounds:2,2,57,45
 offsets:1,0,59,45
 rotate:90
 move_3
-bounds:141,2,57,43
-offsets:1,2,59,45
+bounds:231,3,56,43
+offsets:2,2,59,45
 rotate:90
 move_4
 bounds:276,3,56,43
@@ -112,7 +112,7 @@ bounds:321,3,56,43
 offsets:2,1,59,45
 rotate:90
 move_6
-bounds:186,2,57,43
+bounds:141,2,57,43
 offsets:1,2,59,45
 rotate:90
 move_7

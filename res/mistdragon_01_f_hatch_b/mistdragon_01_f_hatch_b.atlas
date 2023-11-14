@@ -1,6 +1,7 @@
 mistdragon_01_f_hatch_b.png
 size:110,635
 filter:Linear,Linear
+pma:true
 body eff_01
 bounds:44,39,12,8
 rotate:90

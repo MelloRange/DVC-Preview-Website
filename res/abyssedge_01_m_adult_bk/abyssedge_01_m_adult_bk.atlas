@@ -1,5 +1,5 @@
 abyssedge_01_m_adult_bk.png
-size:1775,204
+size:1777,204
 filter:Linear,Linear
 pma:true
 body_3
@@ -55,8 +55,7 @@ leg_b_l2_3
 bounds:1748,51,24,22
 rotate:90
 leg_b_r1_3
-bounds:1749,163,22,39
-offsets:4,0,26,39
+bounds:1749,163,26,39
 leg_b_r2_3
 bounds:1748,25,24,18
 rotate:90

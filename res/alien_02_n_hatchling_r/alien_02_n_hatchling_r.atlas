@@ -1,7 +1,6 @@
 alien_02_n_hatchling_r.png
 size:165,897
 filter:Linear,Linear
-pma:true
 body_2
 bounds:36,846,33,43
 rotate:90

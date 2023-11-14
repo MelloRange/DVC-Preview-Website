@@ -1,6 +1,7 @@
 lunera_01_f_hatchling_w.png
 size:173,939
 filter:Linear,Linear
+pma:true
 body_2
 bounds:85,70,46,28
 head_2

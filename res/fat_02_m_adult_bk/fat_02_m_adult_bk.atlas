@@ -7,8 +7,10 @@ bounds:343,329,79,55
 rotate:90
 body_4
 bounds:223,75,115,53
-head_4
+head_3
 bounds:97,2,37,37
+head_4
+bounds:342,14,37,37
 idle_00
 bounds:205,354,136,54
 offsets:0,0,136,55

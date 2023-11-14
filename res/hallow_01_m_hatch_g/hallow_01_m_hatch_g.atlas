@@ -1,6 +1,7 @@
 hallow_01_m_hatch_g.png
 size:138,681
 filter:Linear,Linear
+pma:true
 body_1
 bounds:32,645,30,22
 eye_effect_1

@@ -1,7 +1,6 @@
 nidhogg_01_f_hatchling_w.png
 size:380,803
 filter:Linear,Linear
-pma:true
 body_1
 bounds:70,755,28,44
 rotate:90

@@ -6,8 +6,7 @@ body_3
 bounds:1857,232,66,86
 rotate:90
 head_3
-bounds:1850,59,55,55
-offsets:0,1,56,56
+bounds:1850,58,56,56
 idle_00
 bounds:1190,145,153,131
 offsets:6,0,163,133
@@ -112,7 +111,7 @@ bounds:1725,148,150,130
 offsets:7,0,169,138
 rotate:90
 tail_3
-bounds:1850,5,44,52
+bounds:1850,4,44,52
 wing_l_3
 bounds:1857,164,84,66
 wing_r_3

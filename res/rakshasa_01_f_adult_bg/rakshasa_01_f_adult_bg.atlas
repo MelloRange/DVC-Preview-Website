@@ -1,6 +1,7 @@
 rakshasa_01_f_adult_bg.png
 size:2030,284
 filter:Linear,Linear
+pma:true
 acc_f_body_02_3
 bounds:1889,2,47,29
 rotate:90

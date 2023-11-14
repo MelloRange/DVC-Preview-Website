@@ -6,15 +6,15 @@ body_3
 bounds:1839,226,56,76
 rotate:90
 head_3
-bounds:1839,154,70,73
-offsets:3,0,73,73
+bounds:1839,155,69,73
+offsets:3,0,72,73
 rotate:90
 leg_b_l_3
 bounds:1716,178,32,46
 leg_b_r_3
-bounds:1891,2,28,44
+bounds:1891,3,28,44
 leg_f_l_3
-bounds:1839,2,44,50
+bounds:1839,3,44,50
 rotate:90
 leg_f_r_3
 bounds:1750,152,30,30
@@ -23,7 +23,7 @@ bounds:1716,144,32,32
 light_3_02
 bounds:1750,184,40,40
 light_3_03
-bounds:1839,48,52,52
+bounds:1839,49,52,52
 moon_3
 bounds:1782,154,28,28
 paritcle_1_3
@@ -127,4 +127,4 @@ offsets:12,4,139,172
 tail_3
 bounds:1716,226,102,56
 wing_l_3
-bounds:1839,102,60,50
+bounds:1839,103,60,50

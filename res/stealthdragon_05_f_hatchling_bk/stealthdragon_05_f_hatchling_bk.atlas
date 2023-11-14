@@ -1,7 +1,6 @@
 stealthdragon_05_f_hatchling_bk.png
 size:2016,253
 filter:Linear,Linear
-pma:true
 arm_acc_1_2
 bounds:1944,53,40,44
 rotate:90

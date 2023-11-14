@@ -3,8 +3,8 @@ size:824,523
 filter:Linear,Linear
 pma:true
 acc_3_2
-bounds:702,19,62,60
-offsets:1,1,64,62
+bounds:702,20,61,60
+offsets:2,1,64,62
 rotate:90
 acc_b_2
 bounds:710,101,70,72

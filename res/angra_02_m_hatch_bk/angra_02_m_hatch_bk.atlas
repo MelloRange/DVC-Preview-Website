@@ -5,12 +5,12 @@ pma:true
 body_1
 bounds:627,116,22,24
 body_fur_1
-bounds:641,54,14,22
+bounds:641,50,14,22
 crystal_1
-bounds:641,36,16,16
+bounds:641,32,16,16
 glow_1
-bounds:617,78,24,24
-offsets:2,2,28,26
+bounds:593,74,28,26
+rotate:90
 head_1
 bounds:593,104,32,36
 head_fur_1
@@ -61,7 +61,7 @@ bounds:604,3,14,18
 leg_b_r_1
 bounds:568,3,16,18
 leg_f_l_1
-bounds:643,100,14,12
+bounds:645,100,14,12
 rotate:90
 leg_f_r_1
 bounds:627,104,8,10
@@ -102,7 +102,7 @@ move_09
 bounds:198,2,52,62
 offsets:3,2,59,68
 tail_1
-bounds:593,74,22,28
+bounds:621,74,22,28
 wing_l2_1
 bounds:620,3,18,12
 rotate:90

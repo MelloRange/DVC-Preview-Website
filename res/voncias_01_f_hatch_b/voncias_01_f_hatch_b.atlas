@@ -1,6 +1,7 @@
 voncias_01_f_hatch_b.png
 size:110,617
 filter:Linear,Linear
+pma:true
 body_1
 bounds:2,20,32,24
 head_1
