@@ -1,0 +1,21 @@
+.spineCanvas {
+    width: 65%;
+    height: 300%;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.auraBackCanvas {
+    z-index: -1;
+}
+
+.dragonCanvas {
+    z-index: 0;
+}
+
+.auraFrontCanvas {
+    z-index: 1;
+}
