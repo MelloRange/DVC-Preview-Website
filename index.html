@@ -1,4 +1,3 @@
-
 <head>
 	<script src="https://mellorange.github.io/DVC-Preview-Website/js/common.js"></script>
 	<script src="https://mellorange.github.io/DVC-Preview-Website/js/spineObject.js"></script>
@@ -18,7 +17,7 @@
 	<script type="text/javascript">
 		let loadSpineAuraBack = function() { 
 			new spine.SpineCanvas(document.getElementById("canvas-aura-back"), {
-				app: new SpineObject("https://res.dvc.land/dvc-web/res/spine/aura/aura_back/aura_back", "aura_a_red")
+				app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_a_red")
 			})
 		}
 		window.addEventListener("load", loadSpineAuraBack);
@@ -28,7 +27,7 @@
 	<script type="text/javascript"> 
 		let loadSpineAuraFront = function() { 
 			new spine.SpineCanvas(document.getElementById("canvas-aura-front"), {
-				app: new SpineObject("https://res.dvc.land/dvc-web/res/spine/aura/aura_front/aura_front", "a")
+				app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura_front/aura_front", "a")
 			})
 		}
 		window.addEventListener("load", loadSpineAuraFront);
