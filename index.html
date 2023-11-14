@@ -8,7 +8,7 @@
 	<canvas id="canvas-dragon" class="spineCanvas dragonCanvas" width="899" height="782"></canvas>
 	<script type="text/javascript">
 		let loadSpineDragon = function() { 
-			Common.setDragonSpineOrImage("https://mellorange.github.io/DVC-Preview-Website/res/underground_01_f_adult_g/underground_01_f_adult_g")
+			Common.setDragonSpine("https://mellorange.github.io/DVC-Preview-Website/res/underground_01_f_adult_g/underground_01_f_adult_g")
 		}
 		window.addEventListener("load", loadSpineDragon);
 	</script>
@@ -27,7 +27,7 @@
 	<script type="text/javascript"> 
 		let loadSpineAuraFront = function() { 
 			new spine.SpineCanvas(document.getElementById("canvas-aura-front"), {
-				app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura_front/aura_front", "a")
+				app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "a")
 			})
 		}
 		window.addEventListener("load", loadSpineAuraFront);
