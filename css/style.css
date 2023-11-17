@@ -1,5 +1,5 @@
 .spineCanvas {
-    width: 80%;
+    width: 100%;
     height: 200%;
     position: absolute;
     transform: translate(-50%, -15%);
@@ -20,12 +20,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: max-content max-content max-content max-content max-content;
+  grid-template-columns: max-content max-content max-content max-content;
 }
 
 .grid-item {
     position:relative;
-    width:350px;
-    height:350px;
     text-align: center;
 }
