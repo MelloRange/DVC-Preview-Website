@@ -1,21 +1,31 @@
 .spineCanvas {
-    width: 65%;
-    height: 300%;
-
+    width: 80%;
+    height: 200%;
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -15%);
+
 }
 
 .auraBackCanvas {
     z-index: -1;
 }
 
-.dragonCanvas {
+.dragonCanvas {s
     z-index: 0;
 }
 
 .auraFrontCanvas {
     z-index: 1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content;
+}
+
+.grid-item {
+    position:relative;
+    width:350px;
+    height:350px;
+    text-align: center;
 }

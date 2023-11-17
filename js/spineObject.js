@@ -86,7 +86,7 @@ class SpineObject {
             }
         }
         else {
-            this.skeletonScale = 1;
+            this.skeletonScale = 0.7;
         }
 
         // console.log(navigator.userAgent)
