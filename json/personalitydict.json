@@ -1,3 +1,12 @@
+{
+	"Affable" : {
+		"back" : "aura_s_xmas_b",
+		"front" : "aura_s_xmas_b"
+	},
+	"Adamant" : {
+		"back" : "aura_b_navy",
+		"front" : ""
+	},
 	"Apocalyptic" : {
 		"back" : "aura_s_end",
 		"front" : "aura_s_end"
@@ -10,6 +19,10 @@
 		"back" : "aura_s_dark",
 		"front" : "aura_s_dark"
 	},
+	"Bashful" : {
+		"back" : "aura_b_whight",
+		"front" : ""
+	},
 	"BlueMoon" : {
 		"back" : "aura_s_moon_blue",
 		"front" : "aura_s_transparent_blue"
@@ -18,13 +31,37 @@
 		"back" : "aura_s_moon_blue_fly",
 		"front" : "aura_s_transparent_blue_fly"
 	},
+	"Bold" : {
+		"back" : "aura_b_sky",
+		"front" : ""
+	},
+	"Brave" : {
+		"back" : "aura_b_red",
+		"front" : ""
+	},
+	"Calm" : {
+		"back" : "aura_b_brown",
+		"front" : ""
+	},
 	"Capable" : {
 		"back" : "aura_s_bluelight",
 		"front" : "aura_s_bluelight"
 	},
+	"Careful" : {
+		"back" : "aura_b_black",
+		"front" : ""
+	},
 	"Charming" : {
 		"back" : "aura_a_yellow",
 		"front" : "a"
+	},
+	"Cheerful" : {
+		"back" : "aura_a2_orange",
+		"front" : "a2"
+	},
+	"Christmas" : {
+		"back" : "aura_s_xmas_a",
+		"front" : "aura_s_xmas_a"
 	},
 	"Classy" : {
 		"back" : "aura_s_pearl",
@@ -38,9 +75,17 @@
 		"back" : "aura_a2_green",
 		"front" : "a2"
 	},
+	"Dawn" : {
+		"back" : "aura_a2_white",
+		"front" : "a2_whitegold"
+	},
 	"Distracted" : {
 		"back" : "aura_s_mint",
 		"front" : "aura_s_champion2"
+	},
+	"Docile" : {
+		"back" : "aura_b_green",
+		"front" : ""
 	},
 	"Dull" : {
 		"back" : "aura_a_babyblue",
@@ -50,9 +95,17 @@
 		"back" : "aura_s_blackhole",
 		"front" : "aura_s_star"
 	},
+	"Extroverted" : {
+		"back" : "aura_s_prism",
+		"front" : "aura_s_prism"
+	},
 	"Fearful" : {
 		"back" : "aura_a_mint",
 		"front" : "a"
+	},
+	"Frail" : {
+		"back" : "aura_s_blackgreen",
+		"front" : "aura_s_blackgreen"
 	},
 	"FullMoon" : {
 		"back" : "aura_s_moon_yellow",
@@ -61,6 +114,22 @@
 	"FullMoonFly" : {
 		"back" : "aura_s_moon_yellow_fly",
 		"front" : "aura_s_transparent_yellow_fly"
+	},
+	"Glorious": {
+		"back" : "aura_s_pvp_b",
+		"front" : "aura_s_pvp_b"
+	},
+	"Hardy" : {
+		"back" : "aura_b_darkbrown",
+		"front" : ""
+	},
+	"Hasty" : {
+		"back" : "aura_b_orangered",
+		"front" : ""
+	},
+	"Honorable": {
+		"back" : "aura_s_pvp_a",
+		"front" : "aura_s_pvp_a"
 	},
 	"Horrendous" : {
 		"back" : "aura_s_halloween_b",
@@ -77,6 +146,10 @@
 	"Introvert" : {
 		"back" : "aura_a2_red",
 		"front" : "a2"
+	},
+	"Lax" : {
+		"back" : "aura_b_pink",
+		"front" : ""
 	},
 	"Lonely" : {
 		"back" : "aura_a_lavender",
@@ -102,6 +175,10 @@
 		"back" : "aura_a2_greenmint",
 		"front" : "a2_l"
 	},
+	"Naive" : {
+		"back" : "aura_b_yellow",
+		"front" : ""
+	},
 	"Neat" : {
 		"back" : "aura_s_transparent3",
 		"front" : "aura_s_star"
@@ -118,6 +195,22 @@
 		"back" : "aura_s_transparent",
 		"front" : "aura_s_transparent"
 	},
+	"QuickWitted" : {
+		"back" : "aura_b_yellowgreen",
+		"front" : ""
+	},
+	"Quiet" : {
+		"back" : "aura_b_blue",
+		"front" : ""
+	},
+	"Quirky" : {
+		"back" : "aura_b_purple",
+		"front" : ""
+	},
+	"Rash" : {
+		"back" : "aura_b_orange",
+		"front" : ""
+	},
 	"Serious" : {
 		"back" : "aura_a_lapislazuli",
 		"front" : "a"
@@ -130,9 +223,21 @@
 		"back" : "aura_s_game_b",
 		"front" : "aura_s_game_b"
 	},
+	"Smart" : {
+		"back" : "aura_b_mint",
+		"front" : ""
+	},
 	"Sociable" : {
 		"back" : "aura_a_pastelpink",
 		"front" : "a3_purple"
+	},
+	"Solitary" : {
+		"back" : "aura_a2_warmgray",
+		"front" : "a2"
+	},
+	"Somber" : {
+		"back" : "aura_a2_brown",
+		"front" : "a2_copper"
 	},
 	"Spooky" : {
 		"back" : "aura_s_halloween_a",
@@ -158,3 +263,8 @@
 		"back" : "aura_s_blackred",
 		"front" : "aura_s_blackred"
 	},
+	"Wilderness" : {
+		"back" : "aura_s_sunset",
+		"front" : "aura_s_sunset"
+	},
+}
