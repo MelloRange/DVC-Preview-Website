@@ -9,5538 +9,3776 @@
 			
 			var species;
 			var personality;
-			var gender = "m";
+			var gender;
 			var form;
 			const speciesJson = {
 			  "abaddon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "abvalle": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "abyssedge": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "adela": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "aegis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "afrit": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "agnad": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "alien": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "n": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "anemone": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "angelcat": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "angeljr": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "angel": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "angra": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "animala": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "applecheek": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "artemis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "asti": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "azak": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "baal": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "baekho": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bagma": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "banshee": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "beardeddragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "beleth": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "berris": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "blackarmorspear": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "blackarmorsword": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "blackarmor": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "blackdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bladedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bluebirdberris": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bluecharacen": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bluefiretail": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bluelightning": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bluethunder": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "blue": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bomberdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "bonehead": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "catsgon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "centipededragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "centura": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "characen": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "chungmuhaetae": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "citael": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "clavis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "06": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "clockworkdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "cloud": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "cobradragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "cresteddragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "crookers": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "cupid": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "cupifriend": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dargos": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "darkangeldragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "darkcloud": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "darkgoddragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "darklightningdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "darknix": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "daros": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "demonggargoyle": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "demonio": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "devared": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "deva": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "devilgon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dianu": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dimensiondragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "diyona": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dragonoidsoul": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dragonoid": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dreamerobex": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dreamwaterdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "dupen": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "eelosdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "egg": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "elderlydragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "emerald": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "enokidragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ereboss": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "eshu": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "fat": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "feros": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "fides": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "fireghostdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "firetail": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "fire": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "flamedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "florea": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "flowerdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "frame": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "frankensteindragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "frog": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "frostbluedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "frost": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "gaian": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "gautlinggon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ges": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "gigantis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "girdletaildragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "glaone": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goblindragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goddragonjr": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goddragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goldapplecheek": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goldenpoisonriver": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goldie": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goldmetal": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "goldpike": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "gold": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "gorgon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "gracia": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "granos": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "griffar": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "gust": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "haetae": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hallow": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "harika": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "haze": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hedgebatdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hela": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hell": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "henes": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "herculesdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hourglassdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hurricane": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "hydragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "hyeonmu": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ignis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ilios": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "insectdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "insectqueen": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "irondeva": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "iron": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "r"
-					  }
-					}
-				  }
-				}
-			  },
-			  "jango": {
-				"forms": {
-				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
-				  },
-				  "02": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "jarukah": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "jealousycupid": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "jima": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "jimon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "rp"
-					  }
-					}
-				  }
-				}
-			  },
-			  "jujag": {
-				"forms": {
-				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "kangkang": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "karura": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "keepergoddragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "khanmarino": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "khan": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
-				  }
-				}
-			  },
-			  "kirin": {
-				"forms": {
-				  "01": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "knightdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "kuzmara": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "labasalt": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lady": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "lakion": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lalux": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lambgon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
-				  }
-				}
-			  },
-			  "lattegon": {
-				"forms": {
-				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
-				  },
-				  "02": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
-				  },
-				  "03": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lava": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "leafdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "leglien": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "leoparddragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "leovector": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "libera": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "liberte": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "librodragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lichmond": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lightdarknix": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lightning": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lightspicy": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lololli": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lucio": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lumindis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "lunera": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "maga": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "magnello": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "maldek": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "maloden": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "maniacalpowerdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mapledragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "marbas": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "marino": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mellow": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "metal": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "minas": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mistdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mithra": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mud": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "mummydragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mushroomknight": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mushroom": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mustardhammer": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "mystictiny": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "nebula": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "nello": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "neondragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "nessiebig": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "n": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "nessie": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "nidhogg": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "nightmarelucio": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ninjadragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ninja": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ninmunia": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "non": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "nox": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "obex": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "oculus": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "pancakedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "pangpang": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "party": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "patroa": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "n": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "petra": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "pharaogon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "phoenix": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "pierrotdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "pinkbell": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "plumos": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "poisonriver": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "popomo": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "popon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "porta": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "power": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "prohibitedwitchdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "pureevilnon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "purewhitefides": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "purplelips": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "python": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rafael": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "p"
-					  },
-					  "n": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m",
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "ragnarok": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rakshasa": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "ranky": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "gy"
-					  },
-					  "m": {
-						"color": "gy"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "redbulldragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "redtaabire": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "redwyvern": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rekmall": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "remorseflorea": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rock": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rosegold": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rudeore": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rugar": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rupia": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rupo": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "rutilus": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "sand": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "scarlet": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "scorpiondragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "sealeddarknix": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "seere": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "serpentdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "serpentflower": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "shadow": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "sharkgon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "sharptail": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "siamesedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "sixleghorn": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "skelegon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  },
-					  "n": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m",
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "skinkdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "skoorum": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "skylancer": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "slimedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "n": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "n": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "slosi": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "smart": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "snowflowerpopomo": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "snowfrostdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "solardragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "solucanis": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "spicy": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  },
-					  "n": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m",
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "spike": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "spinedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "splender": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "rp"
-					  },
-					  "m": {
-						"color": "rp"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "starace": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "stealthdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "04": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "05": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "stra": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "sullae": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "suradragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "surtr": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "swamp": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "taabire": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "taros": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "tattoodragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "taygeta": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "teddydragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "tediblo": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "tilki": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "timber": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "titan": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "totemdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "trexdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "tutankhagon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "tycane": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "typhoondragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "undead": {
 				"forms": {
 				  "fin": {
-					"genders": {
-					  "n": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  },
 			  "underground": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "valefor": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "valla": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "y"
-					  },
-					  "m": {
-						"color": "y"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "vargr": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "vefal": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "vegabond": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "vera": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "volcano": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "r"
-					  },
-					  "m": {
-						"color": "r"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "voncias": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "vonsharkgon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "voodoodragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "yr"
-					  },
-					  "m": {
-						"color": "yr"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "water": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "b"
-					  },
-					  "m": {
-						"color": "b"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "whiteapple": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "whitedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "whitegold": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "whitethunder": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "wind": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  },
-					  "m": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bg"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  },
 				  "03": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "f"
+					]
 				  }
 				}
 			  },
 			  "wings": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  },
 				  "02": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "witchdragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "p"
-					  },
-					  "m": {
-						"color": "p"
-					  }
-					}
-				  }
-				}
-			  },
-			  "xmasdragon": {
-				"forms": {
-				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
-				  },
-				  "02": {
-					"genders": {
-					  "f": {
-						"color": "pb"
-					  },
-					  "m": {
-						"color": "pb"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "yurion": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "w"
-					  },
-					  "m": {
-						"color": "w"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "zephyros": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "f": {
-						"color": "bk"
-					  },
-					  "m": {
-						"color": "bk"
-					  }
-					}
+					"genders": [
+					  "f",
+					  "m"
+					]
 				  }
 				}
 			  },
 			  "zombiedragon": {
 				"forms": {
 				  "01": {
-					"genders": {
-					  "n": {
-						"color": "g"
-					  }
-					}
+					"genders": [
+					  "n"
+					]
 				  }
 				}
 			  }
@@ -5719,6 +3957,7 @@
 				// assign the appearance control elements to the global variables
 				species = document.getElementById("species");
 				personality = document.getElementById("personality");
+				gender = document.getElementById("gender");
 				form = document.getElementById("form");
 				//add radio button here once figure out how to grab the value from it
 				
@@ -5741,42 +3980,29 @@
 				}
 			}
 			
-			function setGender(genderValue){
-				gender = genderValue;
-				updateUrl();
-			}
-			
 			function updateUrl(){
-				//get dragon url parts
+				//get url parts
 				var speciesName = species.value;
 				var formName = form.value;
-				var colorName = speciesJson[speciesName].forms[formName].genders[gender].color;
+				//var genderName = gender.value;
+				var genderName = "m";
+				var colorName = "p";//speciesJson[speciesName].forms[formName].color;
 				
-				//construct dragon url
-				var url = "https://mellorange.github.io/DVC-Preview-Website/res/" + speciesName + "_" + formName +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formName +"_" + gender + "_adult_" + colorName;
+				//construct url
+				var url = "https://mellorange.github.io/DVC-Preview-Website/res/" + speciesName + "_" + formName +"_" + genderName + "_adult_" + colorName + "/" +speciesName + "_" + formName +"_" + genderName + "_adult_" + colorName;
 				
 				console.log(url);
-				//load new dragon to canvas
+				//load new image to canvas
 				
-				var elements = document.getElementsByClassName("dragonCanvas");
+				let loadSpineDragon = function() { 
+					var elements = document.getElementsByClassName("dragonCanvas");
 					for(var i = 0; i < elements.length; i++) {
 						new spine.SpineCanvas(elements[i], {
 							app: new SpineObject(url, "idle")
 						})
 					}
+				}
 				window.addEventListener("load", loadSpineDragon);
-			}
-				
-			
-			//load new personality when changed
-			function updatePersonalityUrl() {
-				var personalityName = personality.value;
-				new spine.SpineCanvas(document.getElementById("Apocalypticback"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", personalityJson[personalityName].front)
-				});
-				new spine.SpineCanvas(document.getElementById("Apocalypticfront"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", personalityJson[personalityName].back)
-				});
 			}
 		</script>
 	</head>
@@ -5796,18 +4022,17 @@
 			
 		<div class="grid-item">
 			<canvas class="spineCanvas dragonCanvas"></canvas>
-			<canvas id="Apocalypticback" class="spineCanvas auraBackCanvas"></canvas>
-			<canvas id="Apocalypticfront" class="spineCanvas auraFrontCanvas"></canvas>
+			<canvas id="Balefulback" class="spineCanvas auraBackCanvas"></canvas>
+			<canvas id="Balefulfront" class="spineCanvas auraFrontCanvas"></canvas>
 		</div>
 		</div>
-		
+
 		<script type="text/javascript">
-		//initial dragon is loaded on page open
 		let loadSpineDragon = function() { 
 			var elements = document.getElementsByClassName("dragonCanvas");
 				for(var i = 0; i < elements.length; i++) {
 					new spine.SpineCanvas(elements[i], {
-	        			app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/abaddon_01_m_adult_p/abaddon_01_m_adult_p", "idle")
+	        			app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/porta_03_m_adult_bk/porta_03_m_adult_bk", "idle")
 					})
 				}
 		}
@@ -5815,30 +4040,34 @@
 		</script>
 		
 		<script type="text/javascript">
-		//initial back aura is loaded on page open
-			let loadSpineAuraBackApocalyptic = function() { 
-				new spine.SpineCanvas(document.getElementById("Apocalypticback"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_s_end")
+			let loadSpineAuraBackBaleful = function() { 
+				new spine.SpineCanvas(document.getElementById("Balefulback"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_s_dark")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraBackApocalyptic);
+			window.addEventListener("load", loadSpineAuraBackBaleful);
 		</script>
 
 		
 		<script type="text/javascript"> 
-		//initial front aura is loaded on page open
-			let loadSpineAuraFrontApocalyptic = function() {
-				new spine.SpineCanvas(document.getElementById("Apocalypticfront"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "aura_s_end")
+			let loadSpineAuraFrontBaleful = function() {
+				new spine.SpineCanvas(document.getElementById("Balefulfront"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "aura_s_dark")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraFrontApocalyptic);
+			window.addEventListener("load", loadSpineAuraFrontBaleful);
 		</script>
 
 	<div class="flex-container">
 	<!--selection for auras where entries are appended-->
 	<b>Personality</b>
-		<select id ="personality" name="personality" onchange="updatePersonalityUrl();">
+		<script type="text/javascript">
+		function jsFunction(value)
+		{
+			alert(value);
+		}
+		</script>
+		<select id ="personality" name="personality" onchange="jsFunction(this.value);">
 		</select>
 	&nbsp;
 	
@@ -5848,7 +4077,7 @@
 		</select>
 	&nbsp;
 	
-	<!--selection for forms. if an invalid form is selected, it will be ignored.-->
+	<!--this needs something that displays "Invalid" when the form doesn't exist. otherwise, it gets angry. you have been warned.-->
 	<b>Form</b>
 		<select id ="form" name="form" onchange="updateUrl();">
 		<option value='01'>1</option>
@@ -5862,15 +4091,15 @@
 	<!--who needs text for radio buttons, anyways?-->
 	<br><br>
 		<div id="radios">
-			<input type="radio" name="gender" value="m" id="male" onchange="setGender(this.value)" checked/>
+			<input type="radio" name="gender" value="Male" id="male" onchange="getRating(value)" checked/>
 			<label for="male">
 			<img src="https://mellorange.github.io/DVC-Preview-Website/img/gender_m_0201.png" alt="male selection">
 			</label>
-			<input type="radio" name="gender" value="f" id="female" onchange="setGender(this.value)"/> 
+			<input type="radio" name="gender" value="Female" id="female" onchange="getRating(value)"/> 
 			<label for="female">
 			<img src="https://mellorange.github.io/DVC-Preview-Website/img/gender_f_0201.png" alt="female selection">
 			</label>
-			<input type="radio" name="gender" value="n" id="neutral" onchange="setGender(this.value)"> 
+			<input type="radio" name="gender" value="Neutral" id="neutral" onchange="getRating(value)"> 
 			<label for="neutral">
 			<img src="https://mellorange.github.io/DVC-Preview-Website/img/gender_n_0201.png" alt="neutral selection">
 			</label>
@@ -5883,14 +4112,7 @@
 
 	<!--beyond here lies the best part: the credits!-->
 	<div class="footer">
-	Website Contributors:<br>
-	ｖｅｇａ/spica (design, html/css/javascript)<br>
-	MelloRange (structure, scripting tools)<br>
-	doctormorbid (database updates)<br>
-	<br>
-	Extra support:<br>
-	Atlantia (form names)<br>
-	<br>
-	Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp
+	Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
+	DVC Preview Website by mellorange and vega-spica
 	</div>
 	</div>
