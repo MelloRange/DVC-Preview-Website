@@ -6,16 +6,11 @@
 		<script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.1.*/dist/iife/spine-webgl.js"></script>
 		<script>
 			window.onload = init;
-		
+			
 			var species;
 			var personality;
 			var gender = "m";
 			var form;
-			
-			//i really do wish i could pull from the actual json files instead of having this mess
-				//but i'm kinda incompentent
-					//which i think i warned you about
-						//so here it is til i can fix it
 			const speciesJson = {
 			  "abaddon": {
 				"forms": {
@@ -5507,16 +5502,6 @@
 						"color": "pb"
 					  }
 					}
-				  },	
-				  "03": {
-					"genders": {
-					  "f": {
-						"color": "g"
-					  },
-					  "m": {
-						"color": "g"
-					  }
-					}
 				  }
 				}
 			  },
@@ -5562,14 +5547,6 @@
 			};
 			
 			const personalityJson = {
-				"Affable" : {
-					"back" : "aura_s_xmas_b",
-					"front" : "aura_s_xmas_b"
-				},
-				"Adamant" : {
-					"back" : "aura_b_navy",
-					"front" : ""
-				},
 				"Apocalyptic" : {
 					"back" : "aura_s_end",
 					"front" : "aura_s_end"
@@ -5582,10 +5559,6 @@
 					"back" : "aura_s_dark",
 					"front" : "aura_s_dark"
 				},
-				"Bashful" : {
-					"back" : "aura_b_whight",
-					"front" : ""
-				},
 				"BlueMoon" : {
 					"back" : "aura_s_moon_blue",
 					"front" : "aura_s_transparent_blue"
@@ -5594,37 +5567,13 @@
 					"back" : "aura_s_moon_blue_fly",
 					"front" : "aura_s_transparent_blue_fly"
 				},
-				"Bold" : {
-					"back" : "aura_b_sky",
-					"front" : ""
-				},
-				"Brave" : {
-					"back" : "aura_b_red",
-					"front" : ""
-				},
-				"Calm" : {
-					"back" : "aura_b_brown",
-					"front" : ""
-				},
 				"Capable" : {
 					"back" : "aura_s_bluelight",
 					"front" : "aura_s_bluelight"
 				},
-				"Careful" : {
-					"back" : "aura_b_black",
-					"front" : ""
-				},
 				"Charming" : {
 					"back" : "aura_a_yellow",
 					"front" : "a"
-				},
-				"Cheerful" : {
-					"back" : "aura_a2_orange",
-					"front" : "a2"
-				},
-				"Christmas" : {
-					"back" : "aura_s_xmas_a",
-					"front" : "aura_s_xmas_a"
 				},
 				"Classy" : {
 					"back" : "aura_s_pearl",
@@ -5638,17 +5587,9 @@
 					"back" : "aura_a2_green",
 					"front" : "a2"
 				},
-				"Dawn" : {
-					"back" : "aura_a2_white",
-					"front" : "a2_whitegold"
-				},
 				"Distracted" : {
 					"back" : "aura_s_mint",
 					"front" : "aura_s_champion2"
-				},
-				"Docile" : {
-					"back" : "aura_b_green",
-					"front" : ""
 				},
 				"Dull" : {
 					"back" : "aura_a_babyblue",
@@ -5658,17 +5599,9 @@
 					"back" : "aura_s_blackhole",
 					"front" : "aura_s_star"
 				},
-				"Extroverted" : {
-					"back" : "aura_s_prism",
-					"front" : "aura_s_prism"
-				},
 				"Fearful" : {
 					"back" : "aura_a_mint",
 					"front" : "a"
-				},
-				"Frail" : {
-					"back" : "aura_s_blackgreen",
-					"front" : "aura_s_blackgreen"
 				},
 				"FullMoon" : {
 					"back" : "aura_s_moon_yellow",
@@ -5677,22 +5610,6 @@
 				"FullMoonFly" : {
 					"back" : "aura_s_moon_yellow_fly",
 					"front" : "aura_s_transparent_yellow_fly"
-				},
-				"Glorious": {
-					"back" : "aura_s_pvp_b",
-					"front" : "aura_s_pvp_b"
-				},
-				"Hardy" : {
-					"back" : "aura_b_darkbrown",
-					"front" : ""
-				},
-				"Hasty" : {
-					"back" : "aura_b_orangered",
-					"front" : ""
-				},
-				"Honorable": {
-					"back" : "aura_s_pvp_a",
-					"front" : "aura_s_pvp_a"
 				},
 				"Horrendous" : {
 					"back" : "aura_s_halloween_b",
@@ -5709,10 +5626,6 @@
 				"Introvert" : {
 					"back" : "aura_a2_red",
 					"front" : "a2"
-				},
-				"Lax" : {
-					"back" : "aura_b_pink",
-					"front" : ""
 				},
 				"Lonely" : {
 					"back" : "aura_a_lavender",
@@ -5738,10 +5651,6 @@
 					"back" : "aura_a2_greenmint",
 					"front" : "a2_l"
 				},
-				"Naive" : {
-					"back" : "aura_b_yellow",
-					"front" : ""
-				},
 				"Neat" : {
 					"back" : "aura_s_transparent3",
 					"front" : "aura_s_star"
@@ -5758,22 +5667,6 @@
 					"back" : "aura_s_transparent",
 					"front" : "aura_s_transparent"
 				},
-				"QuickWitted" : {
-					"back" : "aura_b_yellowgreen",
-					"front" : ""
-				},
-				"Quiet" : {
-					"back" : "aura_b_blue",
-					"front" : ""
-				},
-				"Quirky" : {
-					"back" : "aura_b_purple",
-					"front" : ""
-				},
-				"Rash" : {
-					"back" : "aura_b_orange",
-					"front" : ""
-				},
 				"Serious" : {
 					"back" : "aura_a_lapislazuli",
 					"front" : "a"
@@ -5786,21 +5679,9 @@
 					"back" : "aura_s_game_b",
 					"front" : "aura_s_game_b"
 				},
-				"Smart" : {
-					"back" : "aura_b_mint",
-					"front" : ""
-				},
 				"Sociable" : {
 					"back" : "aura_a_pastelpink",
 					"front" : "a3_purple"
-				},
-				"Solitary" : {
-					"back" : "aura_a2_warmgray",
-					"front" : "a2"
-				},
-				"Somber" : {
-					"back" : "aura_a2_brown",
-					"front" : "a2_copper"
 				},
 				"Spooky" : {
 					"back" : "aura_s_halloween_a",
@@ -5826,10 +5707,6 @@
 					"back" : "aura_s_blackred",
 					"front" : "aura_s_blackred"
 				},
-				"Wilderness" : {
-					"back" : "aura_s_sunset",
-					"front" : "aura_s_sunset"
-				},
 			};
 			
 			function init() {
@@ -5843,6 +5720,7 @@
 				species = document.getElementById("species");
 				personality = document.getElementById("personality");
 				form = document.getElementById("form");
+				//add radio button here once figure out how to grab the value from it
 				
 				//create option tags for Species
 				var speciesOption;
@@ -5868,7 +5746,6 @@
 				updateUrl();
 			}
 			
-			//load new dragon when changed
 			function updateUrl(){
 				//get dragon url parts
 				var speciesName = species.value;
@@ -5878,10 +5755,9 @@
 				//construct dragon url
 				var url = "https://mellorange.github.io/DVC-Preview-Website/res/" + speciesName + "_" + formName +"_" + gender + "_adult_" + colorName + "/" +speciesName + "_" + formName +"_" + gender + "_adult_" + colorName;
 				
-				//print url to console log (i'm hopeless and need this here for debugging, don't judge me)
 				console.log(url);
-				
 				//load new dragon to canvas
+				
 				var elements = document.getElementsByClassName("dragonCanvas");
 					for(var i = 0; i < elements.length; i++) {
 						new spine.SpineCanvas(elements[i], {
@@ -5895,11 +5771,11 @@
 			//load new personality when changed
 			function updatePersonalityUrl() {
 				var personalityName = personality.value;
-				new spine.SpineCanvas(document.getElementById("Affableback"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", personalityJson[personalityName].back)
+				new spine.SpineCanvas(document.getElementById("Apocalypticback"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", personalityJson[personalityName].front)
 				});
-				new spine.SpineCanvas(document.getElementById("Affablefront"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", personalityJson[personalityName].front)
+				new spine.SpineCanvas(document.getElementById("Apocalypticfront"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", personalityJson[personalityName].back)
 				});
 			}
 		</script>
@@ -5907,7 +5783,7 @@
     
 	<!--is this really a header? or is it all just an illusion..?-->
 	<div class="header">
-	<!-- a link can be added here to make the logo clickable.-->
+	<!-- you can add the link to the homepage here to make the logo clickable.-->
 	<!-- <a href="YourHomepageLinkHere"> -->
 	<img src="https://mellorange.github.io/DVC-Preview-Website/img/logo.png" width="200px">
 	<!-- </a> -->
@@ -5920,13 +5796,13 @@
 			
 		<div class="grid-item">
 			<canvas class="spineCanvas dragonCanvas"></canvas>
-			<canvas id="Affableback" class="spineCanvas auraBackCanvas"></canvas>
-			<canvas id="Affablefront" class="spineCanvas auraFrontCanvas"></canvas>
+			<canvas id="Apocalypticback" class="spineCanvas auraBackCanvas"></canvas>
+			<canvas id="Apocalypticfront" class="spineCanvas auraFrontCanvas"></canvas>
 		</div>
 		</div>
-	
-		<!--initial dragon is loaded on page open (always set this to be the first one in the list. you've been warned.)-->
+		
 		<script type="text/javascript">
+		//initial dragon is loaded on page open
 		let loadSpineDragon = function() { 
 			var elements = document.getElementsByClassName("dragonCanvas");
 				for(var i = 0; i < elements.length; i++) {
@@ -5938,24 +5814,25 @@
 		window.addEventListener("load", loadSpineDragon);
 		</script>
 		
-		<!--initial back aura is loaded on page open (no, really, it HAS to be manually set to the first alphabetically.)-->
 		<script type="text/javascript">
-			let loadSpineAuraBackAffable = function() { 
-				new spine.SpineCanvas(document.getElementById("Affableback"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_s_xmas_b")
+		//initial back aura is loaded on page open
+			let loadSpineAuraBackApocalyptic = function() { 
+				new spine.SpineCanvas(document.getElementById("Apocalypticback"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_s_end")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraBackAffable);
+			window.addEventListener("load", loadSpineAuraBackApocalyptic);
 		</script>
 
-		<!--initial front aura is loaded on page open (if it's not the first one, it'll break my selectors, and i'll be sad.)-->
+		
 		<script type="text/javascript"> 
-			let loadSpineAuraFrontAffable = function() {
-				new spine.SpineCanvas(document.getElementById("Affablefront"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "aura_s_xmas_b")
+		//initial front aura is loaded on page open
+			let loadSpineAuraFrontApocalyptic = function() {
+				new spine.SpineCanvas(document.getElementById("Apocalypticfront"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "aura_s_end")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraFrontAffable);
+			window.addEventListener("load", loadSpineAuraFrontApocalyptic);
 		</script>
 
 	<div class="flex-container">
@@ -5971,7 +5848,7 @@
 		</select>
 	&nbsp;
 	
-	<!--selection for forms. if an invalid form is selected, species and gender selections will be ignored.-->
+	<!--selection for forms. if an invalid form is selected, it will be ignored.-->
 	<b>Form</b>
 		<select id ="form" name="form" onchange="updateUrl();">
 		<option value='01'>1</option>
