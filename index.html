@@ -3982,7 +3982,7 @@
 	</head>
     
 	<!--totally for the header at the top.-->
-	<div class="header">
+	<div align="center">
 	<!-- you can add the link to the homepage here to make the logo clickable.-->
 	<!-- <a href="YourHomepageLinkHere"> -->
 	<img src="https://mellorange.github.io/DVC-Preview-Website/img/logo.png" width="200px">
@@ -3994,10 +3994,10 @@
 	<div class="wrapper">
 		<div class="grid-container">
 			
-		<div class="grid-item">
+		<div class="grid-item" style="width:300px; height:300px;">
 			<canvas class="spineCanvas dragonCanvas"></canvas>
-			<canvas id="Balefulback" class="spineCanvas auraBackCanvas"></canvas>
-			<canvas id="Balefulfront" class="spineCanvas auraFrontCanvas"></canvas>
+			<canvas id="Arrogantback" class="spineCanvas auraBackCanvas"></canvas>
+			<canvas id="Arrogantfront" class="spineCanvas auraFrontCanvas"></canvas>
 		</div>
 		</div>
 
@@ -4006,7 +4006,7 @@
 			var elements = document.getElementsByClassName("dragonCanvas");
 				for(var i = 0; i < elements.length; i++) {
 					new spine.SpineCanvas(elements[i], {
-	        			app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/porta_03_m_adult_bk/porta_03_m_adult_bk", "idle")
+	        			app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/underground_01_f_adult_g/underground_01_f_adult_g", "idle")
 					})
 				}
 		}
@@ -4014,25 +4014,25 @@
 		</script>
 		
 		<script type="text/javascript">
-			let loadSpineAuraBackBaleful = function() { 
-				new spine.SpineCanvas(document.getElementById("Balefulback"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_s_dark")
+			let loadSpineAuraBackArrogant = function() { 
+				new spine.SpineCanvas(document.getElementById("Arrogantback"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_back/aura_back", "aura_a_red")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraBackBaleful);
+			window.addEventListener("load", loadSpineAuraBackArrogant);
 		</script>
 
 		
 		<script type="text/javascript"> 
-			let loadSpineAuraFrontBaleful = function() {
-				new spine.SpineCanvas(document.getElementById("Balefulfront"), {
-					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "aura_s_dark")
+			let loadSpineAuraFrontArrogant = function() {
+				new spine.SpineCanvas(document.getElementById("Arrogantfront"), {
+					app: new SpineObject("https://mellorange.github.io/DVC-Preview-Website/res/aura/aura_front/aura_front", "a")
 				})
 			}
-			window.addEventListener("load", loadSpineAuraFrontBaleful);
+			window.addEventListener("load", loadSpineAuraFrontArrogant);
 		</script>
 
-	<div class="flex-container">
+	<div align="center">
 	<!--auras-->
 	<b>Personality</b>
 		<script type="text/javascript">
@@ -4091,8 +4091,8 @@
 	<hr size=1>
 
 	<!--footer, now with 33% more feet.-->
-	<div class="footer">
-	<font size="1">
+	<div align="center">
+	<font size="1" color="black">
 	Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
 	DVC Preview Website by mellorange and vega-spica
 	<font>
