@@ -3958,7 +3958,6 @@
 				species = document.getElementById("species");
 				personality = document.getElementById("personality");
 				gender = document.getElementById("gender");
-				form = document.getElementById("form");
 				//add radio button here once figure out how to grab the value from it
 				
 				//create option tags for Species
@@ -3979,35 +3978,10 @@
 					personality.appendChild(personalityOption);
 				}
 			}
-			
-			function updateUrl(){
-				//get url parts
-				var speciesName = species.value;
-				var formName = form.value;
-				//var genderName = gender.value;
-				var genderName = "m";
-				var colorName = "p";//speciesJson[speciesName].forms[formName].color;
-				
-				//construct url
-				var url = "https://mellorange.github.io/DVC-Preview-Website/res/" + speciesName + "_" + formName +"_" + genderName + "_adult_" + colorName + "/" +speciesName + "_" + formName +"_" + genderName + "_adult_" + colorName;
-				
-				console.log(url);
-				//load new image to canvas
-				
-				let loadSpineDragon = function() { 
-					var elements = document.getElementsByClassName("dragonCanvas");
-					for(var i = 0; i < elements.length; i++) {
-						new spine.SpineCanvas(elements[i], {
-							app: new SpineObject(url, "idle")
-						})
-					}
-				}
-				window.addEventListener("load", loadSpineDragon);
-			}
 		</script>
 	</head>
     
-	<!--is this really a header? or is it all just an illusion..?-->
+	<!--totally for the header at the top.-->
 	<div class="header">
 	<!-- you can add the link to the homepage here to make the logo clickable.-->
 	<!-- <a href="YourHomepageLinkHere"> -->
@@ -4073,13 +4047,25 @@
 	
 	<!--selection for species where entries are appended-->
 	<b>Species</b>
-		<select id ="species" name="species" onchange="updateUrl();">
+		<script type="text/javascript">
+		function jsFunction(value)
+		{
+			alert(value);
+		}
+		</script>
+		<select id ="species" name="species" onchange="jsFunction(this.value);">
 		</select>
 	&nbsp;
 	
 	<!--this needs something that displays "Invalid" when the form doesn't exist. otherwise, it gets angry. you have been warned.-->
 	<b>Form</b>
-		<select id ="form" name="form" onchange="updateUrl();">
+		<script type="text/javascript">
+		function jsFunction(value)
+		{
+			alert(value);
+		}
+		</script>
+		<select id ="form" name="form" onchange="jsFunction(this.value);">
 		<option value='01'>1</option>
 		<option value='02'>2</option>
 		<option value='03'>3</option>
@@ -4088,31 +4074,28 @@
 		<option value='06'>6</option>
 		</select>
 
-	<!--who needs text for radio buttons, anyways?-->
-	<br><br>
-		<div id="radios">
-			<input type="radio" name="gender" value="Male" id="male" onchange="getRating(value)" checked/>
-			<label for="male">
-			<img src="https://mellorange.github.io/DVC-Preview-Website/img/gender_m_0201.png" alt="male selection">
-			</label>
-			<input type="radio" name="gender" value="Female" id="female" onchange="getRating(value)"/> 
-			<label for="female">
-			<img src="https://mellorange.github.io/DVC-Preview-Website/img/gender_f_0201.png" alt="female selection">
-			</label>
-			<input type="radio" name="gender" value="Neutral" id="neutral" onchange="getRating(value)"> 
-			<label for="neutral">
-			<img src="https://mellorange.github.io/DVC-Preview-Website/img/gender_n_0201.png" alt="neutral selection">
-			</label>
-		</div>
+	<!--radio button for gender-->
+	<br>
+	<br>
+	<b>Gender</b><br>
+		<input type="radio" name="gender" value="Male" id="male" onchange="getRating(value)/> 
+		<label for="male">Male</label><br>
+		<input type="radio" name="gender" value="Female" id="female" onchange="getRating(value)/> 
+		<label for="female">Female</label><br>
+		<input type="radio" name="gender" value="Neutral" id="neutral" onchange="getRating(value)/> 
+		<label for="neutral">Neutral</label><br>
 	</div>
 	<br>
 	
-	<!--just a horizontal line. nothing to see here.-->
+	<!--you can state how many pixels wide you want this horizontal line <hr> to be. i set it to "1" here.-->
 	<hr size=1>
 
-	<!--beyond here lies the best part: the credits!-->
+	<!--footer, now with 33% more feet.-->
 	<div class="footer">
+	<font size="1">
 	Dragon Village Collection assets and all Dragon Village characters ©highbrow Corp<br>
 	DVC Preview Website by mellorange and vega-spica
+	<font>
 	</div>
 	</div>
+
